@@ -262,8 +262,8 @@
                            <td><img src="${element.image}" class="img-fluid" style="border-radius: 0;width: 200px;height: 150px" alt="anh dep"/></td>
                            <td>${element.description}</td>
                            <td>
-                           <a href="https://front-end-clothes.herokuapp.com/template/pages/detail.html/?id=${element.productId}"><i class="mdi mdi-account-search" style="font-size: 20px;"></i></a>
-                           <a href="https://front-end-clothes.herokuapp.com/template/pages/detail.html/?id=${element.productId}"><i class="mdi mdi-lead-pencil" style="font-size: 20px;"></i></a>
+                           <a href="/template/detail.html/?id=${element.productId}"><i class="mdi mdi-account-search" style="font-size: 20px;"></i></a>
+                           <a href="/template/edit.html/?id=${element.productId}"><i class="mdi mdi-lead-pencil" style="font-size: 20px;"></i></a>
                            <a class="btn-delete" href="delete/id=${element.productId}" data-id="${element.productId}"><i class="mdi mdi-delete" style="font-size: 20px;"></i></a>
                   </td>
                           </tr>`
